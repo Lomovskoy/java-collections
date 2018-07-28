@@ -23,8 +23,20 @@ public class ArrayListDemo {
         al.add("B");
         al.add("D");
         al.add("F");
-        al.add(1, "C");
-        System.out.println("Начальный размер коллекции: " + al.size());
+        al.add(1, "A2");
+        System.out.println("Размер коллекции после добавления: " + al.size());
+        
+        //Отобразить массив список
+        System.out.println("Содержимое коллекции:" + al);
+        
+        //Удалить элементы
+        al.remove("F");
+        al.remove(2);
+        
+        System.out.println("Размер коллекции после удавления: " + al.size());
+        
+        //Отобразить массив список
+        System.out.println("Содержимое коллекции:" + al);
     }
     
 }
